@@ -1,5 +1,5 @@
-const setupTest = async (req, res) => {
-	res.send('Hello Daldarin');
-};
+const memberController = require('./memberController');
 
-module.exports = { setupTest };
+module.exports = {
+	memberController,
+};
